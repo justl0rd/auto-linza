@@ -348,14 +348,15 @@ button:active {
 /* ----- Footer ----- */
 
 .advantages {
-	padding: 50px 0;
+	padding: 70px 0 70px;
 	text-align: center;
 	background: #f7f9fb;
 }
 
 .advantages__title {
-	margin-bottom: 30px;
+	margin-bottom: 50px;
 	color: #25365d;
+	text-transform: uppercase;
 }
 
 .advantage {
