@@ -68,10 +68,11 @@ h5,
 h6 {
 	letter-spacing: 0;
 	font-family: 'Museo Sans 700', sans-serif;
-	color: #081d42;
+	color: #25365d;
 	padding: 0;
 	margin: 0;
-
+	text-transform: uppercase;
+	text-align: center;
 }
 
 h1 {
@@ -79,11 +80,11 @@ h1 {
 }
 
 h2 {
-	font-size: 29px;
+	font-size: 39px;
 }
 
 h3 {
-	font-size: 24px;
+	font-size: 30px;
 }
 
 h4 {
@@ -123,14 +124,18 @@ button:active {
 .btn {
 	font-family: 'Museo Sans 700', sans-serif;
 	border-radius: 0;
-	background: #1cb883;
-	border-bottom: 4px solid #149d6f;
+	background: #2e5ecc;
+	border: 1px solid transparent;
 	color: #fff;
 	text-align: center;
 	width: 156px;
+	border-radius: 5px;
 }
 
 .btn:hover {
+	color: #2e5ecc;
+	border: 1px solid #2e5ecc;
+	background: transparent;
 	box-shadow: 0 0 5px rgba(0, 0, 0, 0.35);
 }
 
@@ -141,6 +146,7 @@ button:active {
 .no-padding {
 	padding: 0;
 }
+
 
 /* ----- Сollective Sections ----- */
 
@@ -280,6 +286,26 @@ button:active {
 }
 
 
+/* ----- Offer ----- */
+
+.offer {
+	padding: 160px 0 100px;
+	background: #f7f9fb;
+	border: 1px solid #cfd0d0;
+}
+
+.offer__title {
+	text-transform: none;
+}
+
+.offer__text {
+    font-size: 30px;
+    max-width: 900px;
+    margin-top: 30px;
+    line-height: 1.5em;
+    margin-left: 20px;
+}
+
 /* ----- Slider Styles ----- */
 .slider {
 	position: relative;
@@ -290,15 +316,15 @@ button:active {
 }
 
 .slider__item_1 {
-	background: url(../img/slide1.jpg) no-repeat center top 60%/cover;
+	background: url(../img/home/slide1.jpg) no-repeat center top 60%/cover;
 }
 
 .slider__item_2 {
-	background: url(../img/slide2.jpg) no-repeat center top 20%/cover;
+	background: url(../img/home/slide2.jpg) no-repeat center top 20%/cover;
 }
 
 .slider__item_3 {
-	background: url(../img/slide3.jpg) no-repeat center center/cover;
+	background: url(../img/home/slide3.jpg) no-repeat center center/cover;
 }
 
 .slider-arrow-style {
@@ -347,46 +373,81 @@ button:active {
 	right: 21px;
 }
 
-/* ----- Footer ----- */
+/* ----- Consultation ----- */
 
-.advantages {
-	padding: 70px 0 70px;
-	text-align: center;
-	background: #f7f9fb;
+.consultation {
+	padding: 30px;
+	background: #f2f2f5;
+	border-top: 1px solid #e0e0e0;
+	border-bottom: 1px solid #e0e0e0;
 }
 
-.advantages__title {
+
+/* ----- Projects ----- */
+
+.projects {
+	padding-top: 70px;
+	padding-bottom: 50px;
+}
+
+.projects__title {
 	margin-bottom: 50px;
+}
+.project {
+	width: 100%;
+	max-width: 500px;
+	margin-bottom: 30px;
+}
+
+.project__link {
+	display: block;
+}
+
+.project__img {
+	width: 100%;
+}
+
+/* ----- Rxcellences ----- */
+
+.excellences {
+	padding: 70px 0 80px;
+	text-align: center;
+	background: #f2f2f5;
+}
+
+.excellences__title {
+	margin-bottom: 70px;
 	color: #25365d;
 	text-transform: uppercase;
 }
 
-.advantage {
+.excellence {
 	width: 95%;
-    border: 1px solid #cfd0d0;
     border-radius: 10px;
     height: 100%;
     box-shadow: 0 0 40px 0px rgba(0, 0, 0, 0.2);
     padding: 40px 15px 15px;
+    background: #fff;
 }
 
-.advantage:hover {
+.excellence:hover {
     border-radius: 10px;
     box-shadow: 0 0 55px 0px rgba(0, 0, 0, 0.35);
 }
 
-.advantage__icon {
+.excellence__icon {
 	font-size: 45px;
-	color: #596a90;
+	color: #373738;
 	margin-bottom: 40px;
 }
 
-.advantage__title {
+.excellence__title {
 	margin-bottom: 20px;
 	color: #25365d;
+	text-transform: none;
 }
 
-.advantage__text {
+.excellence__text {
 	margin-bottom: 10px;
 	color: #5a5a5a;
 }
