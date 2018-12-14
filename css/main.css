@@ -382,37 +382,11 @@ button:active {
 	border-bottom: 1px solid #e0e0e0;
 }
 
-
-/* ----- Projects ----- */
-
-.projects {
-	padding-top: 70px;
-	padding-bottom: 50px;
-}
-
-.projects__title {
-	margin-bottom: 50px;
-}
-.project {
-	width: 100%;
-	max-width: 500px;
-	margin-bottom: 30px;
-}
-
-.project__link {
-	display: block;
-}
-
-.project__img {
-	width: 100%;
-}
-
 /* ----- Rxcellences ----- */
 
 .excellences {
 	padding: 70px 0 80px;
 	text-align: center;
-	background: #f2f2f5;
 }
 
 .excellences__title {
@@ -451,6 +425,32 @@ button:active {
 	margin-bottom: 10px;
 	color: #5a5a5a;
 }
+
+/* ----- Projects ----- */
+
+.projects {
+	padding-top: 70px;
+	padding-bottom: 50px;
+	background: #f2f2f5;
+}
+
+.projects__title {
+	margin-bottom: 50px;
+}
+.project {
+	width: 100%;
+	max-width: 500px;
+	margin-bottom: 30px;
+}
+
+.project__link {
+	display: block;
+}
+
+.project__img {
+	width: 100%;
+}
+
 
 /* ----- Footer ----- */
 
