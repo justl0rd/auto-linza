@@ -124,11 +124,12 @@ button:active {
 .btn {
 	font-family: 'Museo Sans 700', sans-serif;
 	border-radius: 0;
+	display: block;
 	background: #2e5ecc;
 	border: 1px solid transparent;
 	color: #fff;
 	text-align: center;
-	width: 156px;
+	width: 200px;
 	border-radius: 5px;
 }
 
@@ -147,7 +148,19 @@ button:active {
 	padding: 0;
 }
 
+.btn__phone {
 
+	margin-right: 6px;
+    transform: rotate(90deg);
+}
+
+.phone-icon {
+	margin-right: 4px;
+}
+
+.callback__btn {
+	margin-left: auto;
+}
 /* ----- Сollective Sections ----- */
 
 /* ----- Header ----- */
@@ -249,16 +262,6 @@ button:active {
 .header__btn {
 	padding: 7px 0 8px;
 	font-size: 13px;
-}
-
-.btn__phone {
-	color: #46e6b0;
-	margin-right: 2px;
-}
-
-.btn__phone_mirror {
-	margin-right: 6px;
-    transform: rotate(90deg);
 }
 
 .nav-trigger {
@@ -429,8 +432,7 @@ button:active {
 /* ----- Projects ----- */
 
 .projects {
-	padding-top: 70px;
-	padding-bottom: 50px;
+	padding: 70px 0;
 	background: #f2f2f5;
 }
 
@@ -451,14 +453,48 @@ button:active {
 	width: 100%;
 }
 
+.more-projects {
+	display: block;
+	margin-top: 50px;
+	width: 280px;
+	margin: 0 auto;
+}
 
 /* ----- Footer ----- */
 
 .footer {
-	padding-bottom: 44px;
+	padding: 30px 0;
 	background: #1f2531;
 	font-family: 'Museo Sans 100', sans-serif;
-	font-size: 12px;
+	font-size: 13px;
 	color: #fff;
 	letter-spacing: 0;
+}
+
+.footer__text_address {
+	line-height: 1.5em;
+	display: block;
+    width: 130px;
+    margin: 0 auto;
+}
+
+.footer__phone {
+	font-family: 'Museo Sans 700', sans-serif;
+	display: block;
+	color: #fff;
+	border: 1px solid transparent;
+	padding: 3px;
+	width: 150px;
+	margin: 0 auto;
+	text-align: center;
+	border-radius: 5px;
+}
+
+.footer__phone:hover {
+	color: #fff;
+	border: 1px solid;
+}
+
+.footer__phone:active {
+	opacity: 0.85;
 }
