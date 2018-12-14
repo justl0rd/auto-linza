@@ -336,12 +336,14 @@ button:active {
 .prev {
 	bottom: 10%;
 	padding-left: 3px;
+	text-align: center;
 	left: 25px;
 }
 
 .next {
 	bottom: 10%;
 	padding-right: 3px;
+	text-align: center;
 	right: 21px;
 }
 
