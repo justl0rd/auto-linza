@@ -174,7 +174,11 @@ button:active {
 }
 
 .logo {
-	display: block;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
 	width: 291px;
 	transition: all 0.5s ease;
 	color: #fff;
