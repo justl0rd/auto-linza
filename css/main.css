@@ -2,7 +2,7 @@
 
 @font-face {
   font-family: 'Museo Sans 100';
-  font-display: auto;
+  font-display: block;
   src: local('Museo Sans 100'), url('../fonts/MuseoSansCyrl-100.eot'); /* IE9 Compat Modes */
   src: url('../fonts/MuseoSansCyrl-100.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
        url('../fonts/MuseoSansCyrl-100.woff2') format('woff2'), /* Super Modern Browsers */
@@ -13,7 +13,7 @@
 
 @font-face {
   font-family: 'Museo Sans 300';
-  font-display: auto;
+  font-display: block;
   src: local('Museo Sans 300'), url('../fonts/MuseoSansCyrl-300.eot'); /* IE9 Compat Modes */
   src: url('../fonts/MuseoSansCyrl-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
        url('../fonts/MuseoSansCyrl-300.woff2') format('woff2'), /* Super Modern Browsers */
@@ -24,7 +24,7 @@
 
 @font-face {
   font-family: 'Museo Sans 700';
-  font-display: auto;
+  font-display: block;
   src: local('Museo Sans 700'), url('../fonts/MuseoSansCyrl-700.eot'); /* IE9 Compat Modes */
   src: url('../fonts/MuseoSansCyrl-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
        url('../fonts/MuseoSansCyrl-700.woff2') format('woff2'), /* Super Modern Browsers */
