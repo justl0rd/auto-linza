@@ -179,7 +179,6 @@ button:active {
 	display: -ms-flex;
 	display: -o-flex;
 	display: flex;
-	width: 291px;
 	transition: all 0.5s ease;
 	color: #fff;
 	font-size: 40px;
@@ -194,6 +193,12 @@ button:active {
 	color: #aeaeae;
 }
 
+.mobile-menu {
+	display: none;
+	width: 22px;
+	margin-left: auto;
+}
+
 .menu {
 	width: 100%;
 }
@@ -202,8 +207,7 @@ button:active {
 	position: relative;
 	color: #fff;
 	cursor: pointer;
-	padding: 0 15px;
-	height: 60px;
+	padding: 20px 15px;
 	display: -webkit-flex;
 	display: -moz-flex;
 	display: -ms-flex;
@@ -231,7 +235,7 @@ button:active {
 .menu__category {
 	display: none;
 	position: absolute;
-	width: 200px;
+	width: 100%;
 	background: rgba(0, 0, 0, 0.65);
 	top: 0;
 	left: 0;
@@ -268,28 +272,9 @@ button:active {
 	font-size: 13px;
 }
 
-.nav-trigger {
-	display: none;
-}
-
-#nav-trigger:checked ~ nav {
-	display: block !important;
-}
-
-.nav__btn {
-	display: none;
-    position: relative;
-    width: 22px;
-    text-align: center;
-    margin: 0;
-    height: 26px;
-    font-size: 26px;
-    color: #fff;
-    cursor: pointer;
-}
-
 .nav__btn-icon {
-	position: absolute;
+	color: #fff;
+	font-size: 23px;
 }
 
 
@@ -403,10 +388,11 @@ button:active {
 
 .excellence {
 	width: 95%;
+	margin: 0 auto;
     border-radius: 10px;
     height: 100%;
     box-shadow: 0 0 40px 0px rgba(0, 0, 0, 0.2);
-    padding: 40px 15px 15px;
+    padding: 40px 15px;
     background: #fff;
 }
 
@@ -458,7 +444,7 @@ button:active {
 	display: block;
 	margin-top: 50px;
 	width: 280px;
-	margin: 0 auto;
+	margin: 15px auto 0;
 }
 
 /* ----- Footer ----- */
