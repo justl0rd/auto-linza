@@ -68,6 +68,7 @@
 	}
 	.callback__btn {
 		margin: 20px auto 0;
+		font-size: 13px;
 	}
 	.slider__item {
 		height: 300px;
@@ -100,7 +101,16 @@
 		font-size: 33px;
 	}
 	h2 {
-		font-size: 29px;
+		font-size: 25px;
+	}
+	h3 {
+		font-size: 22px;
+	}
+	h4 {
+	font-size: 19px;
+	}
+	h5 {
+		font-size: 17px;
 	}
 	.nav > ul li {
 		padding: 10px 5px;
@@ -112,6 +122,16 @@
 		-o-flex-direction: column;
 		flex-direction: column;
 	}
+	.offer {
+		padding: 100px 0 60px;
+	}
+	.offer__text {
+		font-size: 21px;
+		margin-left: 0;
+	}
+	.slider__item {
+		height: 200px;
+	}
 	.excellences {
 		padding-bottom: 30px;
 	}
@@ -121,4 +141,5 @@
 	.footer__text_address {
 		margin-bottom: 15px;
 	}
+
 }
