@@ -132,6 +132,15 @@
 	.slider__item {
 		height: 200px;
 	}
+	.slider__item_1 {
+		background: url(../img/home/slide1-mobile.jpg) no-repeat center top 60%/cover;
+	}
+	.slider__item_2 {
+		background: url(../img/home/slide2-mobile.jpg) no-repeat center top 20%/cover;
+	}
+	.slider__item_3 {
+		background: url(../img/home/slide3-mobile.jpg) no-repeat center center/cover;
+	}
 	.excellences {
 		padding-bottom: 30px;
 	}
