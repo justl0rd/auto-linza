@@ -187,6 +187,7 @@ button:active {
 .logo:hover {
 	color: #fff;
 	text-shadow: 2px 2px 5px #000;
+	transform: scale(1.05, 1.1);
 }
 
 .logo:active {
@@ -230,6 +231,7 @@ button:active {
 
 .menu__link:hover {
 	color: #fff;
+	transform: scale(1.05, 1.2);
 }
 
 .menu__category {
