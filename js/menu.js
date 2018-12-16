@@ -1,4 +1,4 @@
-$(document).ready(function(){ 
+$(function(){ 
 	var touch 	= $('#touch-menu');
 	var menu 	= $('.nav');
 
@@ -12,6 +12,5 @@ $(document).ready(function(){
 		if(w > 991 && menu.is(':hidden')) {
 			menu.removeAttr('style');
 		}
-	});
-	
+	});	
 });
