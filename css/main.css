@@ -88,7 +88,7 @@ h3 {
 }
 
 h4 {
-	font-size: 23px;
+	font-size: 28px;
 }
 
 h5 {
@@ -424,12 +424,12 @@ button:active {
 /* ----- Projects ----- */
 
 .projects {
-	padding: 70px 0;
+	padding: 60px 0;
 	background: #f2f2f5;
 }
 
 .projects__title {
-	margin-bottom: 50px;
+	margin-bottom: 60px;
 }
 .project {
 	width: 100%;
