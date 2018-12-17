@@ -114,6 +114,7 @@
 	}
 	.nav > ul li {
 		padding: 10px 5px;
+		margin: 0 auto;
 	}
 	.nav > ul {
 		-webkit-flex-direction: column;
@@ -121,9 +122,6 @@
 		-ms-flex-direction: column;
 		-o-flex-direction: column;
 		flex-direction: column;
-	}
-	.offer {
-		padding: 100px 0 60px;
 	}
 	.offer__text {
 		font-size: 21px;

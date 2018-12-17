@@ -208,6 +208,8 @@ button:active {
 	position: relative;
 	color: #fff;
 	cursor: pointer;
+	width: 100%;
+	max-width: 160px;
 	padding: 20px 15px;
 	display: -webkit-flex;
 	display: -moz-flex;
@@ -227,6 +229,7 @@ button:active {
 	padding-bottom: 2px;
 	color: #fff;
 	text-transform: uppercase;
+	margin: 0 auto;
 }
 
 .menu__link:hover {
@@ -283,9 +286,10 @@ button:active {
 /* ----- Offer ----- */
 
 .offer {
-	padding: 160px 0 100px;
+	padding: 100px 0 50px;
 	background: #f7f9fb;
 	border: 1px solid #cfd0d0;
+	text-align: center;
 }
 
 .offer__title {
@@ -295,9 +299,8 @@ button:active {
 .offer__text {
     font-size: 30px;
     max-width: 900px;
-    margin-top: 30px;
-    line-height: 1.5em;
-    margin-left: 10px;
+    margin: 15px auto 0;
+    line-height: 1.3em;
 }
 
 /* ----- Slider Styles ----- */
@@ -432,6 +435,11 @@ button:active {
 	width: 100%;
 	max-width: 500px;
 	margin-bottom: 30px;
+	transition: all 0.3s ease;
+}
+
+.project:hover {
+	transform: scale(1.05, 1.05);
 }
 
 .project__link {
