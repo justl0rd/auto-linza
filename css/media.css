@@ -167,6 +167,10 @@
 	.excellence__brand {
 		margin: 0 auto;
 	}
+	.project {
+		max-width: 350px;
+		margin: 0 auto 30px;
+	}
 	.more-projects {
 		margin-top: 0px;
 	}
