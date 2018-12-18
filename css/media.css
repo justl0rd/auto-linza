@@ -100,7 +100,7 @@
 /* 576 - 768 px */
 @media screen and (max-width: 768px) {
 	.excellences {
-		background-image: url(../img/home/excelences/excelences__bg-768.jpg);
+		background-image: none;
 	}
 	.excellence__brand {
 		max-width: 200px;
@@ -156,7 +156,6 @@
 	}
 	.excellences {
 		padding: 50px 0 10px;
-		background-image: url(../img/home/excelences/excelences__bg-576.jpg);
 	}
 	.excellence {
 		margin-bottom: 30px;
