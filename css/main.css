@@ -439,6 +439,10 @@ button:active {
 	display: -ms-flex;
 	display: -o-flex;
 	display: flex;
+	-webkit-flex-wrap: wrap;
+	-moz-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	-o-flex-wrap: wrap;
 	flex-wrap: wrap;
 	justify-content: space-between;
 	-ms-align-items: center;
