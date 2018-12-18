@@ -402,7 +402,6 @@ button:active {
 }
 
 .excellence:hover {
-    border-radius: 10px;
     box-shadow: 0 0 55px 0px rgba(0, 0, 0, 0.35);
 }
 
@@ -452,7 +451,6 @@ button:active {
 
 .more-projects {
 	display: block;
-	margin-top: 50px;
 	width: 280px;
 	margin: 15px auto 0;
 }
@@ -468,6 +466,14 @@ button:active {
 	letter-spacing: 0;
 }
 
+.footer__work-time {
+	display: block;
+	line-height: 1.5em;
+    width: 130px;
+    font-size: 19px;
+    margin: 0 auto 10px;
+}
+
 .footer__text_address {
 	line-height: 1.5em;
 	display: block;
@@ -475,6 +481,10 @@ button:active {
     margin: 0 auto;
 }
 
+.footer__phones {
+	margin-left: 65px;
+	margin-bottom: 20px;
+}
 .footer__phone {
 	font-family: 'Museo Sans 700', sans-serif;
 	display: block;
