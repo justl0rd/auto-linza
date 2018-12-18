@@ -15,7 +15,7 @@
 		margin: 0 auto;
 	}
 	.excellences {
-		background: url(../img/home/excelences/excelences__bg-1200.jpg) no-repeat fixed center top;
+		background: #1f2531 url(../img/home/excelences/excelences__bg-1200.jpg) no-repeat fixed center top;
 	}
 }
 /* 768 - 992 px */
@@ -78,7 +78,7 @@
 	}
 	.excellences {
 		padding-bottom: 40px;
-		background: url(../img/home/excelences/excelences__bg-992.jpg) no-repeat fixed center top;
+		background: #1f2531 url(../img/home/excelences/excelences__bg-992.jpg) no-repeat fixed center top;
 	}
 	.excellence {
 		width: 100%;
@@ -100,7 +100,7 @@
 /* 576 - 768 px */
 @media screen and (max-width: 768px) {
 	.excellences {
-		background: url(../img/home/excelences/excelences__bg-768.jpg) no-repeat fixed center top;
+		background: #1f2531 url(../img/home/excelences/excelences__bg-768.jpg) no-repeat fixed center top / cover;
 	}
 	.excellence__brand {
 		max-width: 200px;
@@ -156,7 +156,7 @@
 	}
 	.excellences {
 		padding: 50px 0 10px;
-		background: rgba(0, 0, 0, 0.8);
+		background: #1f2531;
 	}
 	.excellence {
 		margin-bottom: 30px;
