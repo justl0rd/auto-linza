@@ -384,7 +384,7 @@ button:active {
 .excellences {
 	padding: 70px 0 80px;
 	text-align: center;
-	background: no-repeat fixed center top / cover;
+	background: no-repeat fixed center top;
 	background-image: url(../img/home/excelences/excelences__bg.jpg);
 }
 
