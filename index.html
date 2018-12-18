@@ -3,9 +3,9 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<title>Главная</title>
-	<meta name="description" content="LAB Consulting Ваш надежный партнер в области транспортно-логистического сопровождения">
-	<meta name="keywords" content="Транспорт, логистика, сопровождение грузов, грузовые направления, доставка, доставка грузов">
+	<title>AutoLinza</title>
+	<meta name="description" content="Качественный свет это залог вашей безопасности на дороге. ">
+	<meta name="keywords" content="Замена линз, замена ламп, замена линз в фарах, установка линз, установка би-ксеноновых линз, ремонт фар, установка ксенона, установка линз на, замена штатных линз, линзы в фары, восстановление фар, полировка фар, линзы в фары,auto-linza">
 	<!-- Favicon -->
 	<link rel="shortcut icon" href="img/favicon/favicon.ico">
 	<link rel="icon" type="image/png" sizes="196x196" href="img/favicon/favicon-192.png">
@@ -138,14 +138,14 @@
 					</h3>
 				</div>
 				<div class="col-lg-3">
-					<button class="btn callback__btn">
+					<button class="btn callback__btn callback__open">
 						Заказать звонок
 					</button>
 				</div>
 			</div>
 		</div>
 	</section>
-	<section class="excellences" id="excellences">
+	<section class="excellences" id="excellences"  data-type="background" data-speed="5">
 		<div class="container">
 			<div class="row justify-content-between">
 				<div class="col-12">
@@ -196,6 +196,21 @@
 						<p class="excellence__text">
 							Индивидуальный подход к каждому клиенту
 						</p>
+					</div>
+				</div>
+				<div class="col-12">
+					<div class="excellence excellence_brands">
+						<h4 class="excellence__title">
+							Бренды с которыми мы работаем
+						</h4>
+						<div class="excellence__brands">
+							<img src="img/brands/philips.svg" alt="Philips" class="excellence__brand">
+							<img src="img/brands/narva.svg" alt="Narva" class="excellence__brand">
+							<img src="img/brands/osram.svg" alt="Osram" class="excellence__brand">
+							<img src="img/brands/general_electric.svg" alt="Generel Electric" class="excellence__brand">
+							<img src="img/brands/hella.svg" alt="Hella" class="excellence__brand">
+							<img src="img/brands/bosch.svg" alt="Bosch" class="excellence__brand">
+						</div>
 					</div>
 				</div>
 			</div>
@@ -311,13 +326,31 @@
 							+380637444957
 						</a>
 					</div>
-					<button class="btn callback__btn">
+					<button class="btn callback__btn callback__open">
 						<i class="fas fa-phone btn__phone"></i> Заказать звонок
 					</button>
 				</div>
 			</div>
 		</div>
 	</footer>
+	<div class="callback-block">
+		<form class="callback">
+			<h6 class="callback__title">
+				Заказать звонок
+			</h6>
+			<p class="callback__text">
+				Заполните форму и мы свяжемся с вами как можно скорее. До скорой встречи
+			</p>
+			<input class="callback__input" type="name" name="name" placeholder="Имя" required>
+			<input class="callback__input" type="tel" name="phone" placeholder="Телефон" required>
+
+			<button class="btn callback__btn callback-block__btn">
+				<i class="fas fa-phone btn__phone"></i>
+				Заказать звонок
+			</button>
+		</form>
+		<div class="callback-block__bg"></div>
+	</div>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script type="text/javascript" src="js/main.js"></script>
 	<!-- Slider -->

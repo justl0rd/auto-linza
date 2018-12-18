@@ -1,0 +1,13 @@
+<svg width="448.09448" height="108.75591" xmlns="http://www.w3.org/2000/svg">
+
+ <g>
+  <title>background</title>
+  <rect x="-1" y="-1" width="450.09448" height="110.75591" id="canvas_background" fill="none"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <g stroke="null" id="layer1">
+   <text stroke="#000" transform="matrix(4.855288356184034,0,0,4.855288356184034,-188.19978269832575,-157.1175443955441) " font-weight="bold" xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="25" id="svg_1" y="52.218612" x="39.769682" stroke-width="0" fill="#000000">BOSCH</text>
+  </g>
+ </g>
+</svg>

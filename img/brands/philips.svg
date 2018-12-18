@@ -1,0 +1,17 @@
+<svg width="448.09448" height="108.75591" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <filter height="200%" width="200%" y="-50%" x="-50%" id="svg_1_blur">
+   <feGaussianBlur stdDeviation="0" in="SourceGraphic"/>
+  </filter>
+ </defs>
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="110.75591" width="450.09448" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <g stroke="null" id="layer1">
+   <text font-weight="bold" filter="url(#svg_1_blur)" stroke="#465573" transform="matrix(4.60970607626252,0,0,4.60970607626252,-115.23430929336193,-133.138983687187) " xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="25" id="svg_1" y="49.372038" x="24.996985" stroke-opacity="null" stroke-width="0" fill="#000000">PHILIPS</text>
+  </g>
+ </g>
+</svg>
