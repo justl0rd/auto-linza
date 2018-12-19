@@ -20,6 +20,9 @@
 }
 /* 768 - 992 px */
 @media screen and (max-width: 992px) {
+	.header__phones {
+		padding-right: 0;
+	}
 	.mobile-menu {
 		display: block;
 		padding: 12px 0;
@@ -127,6 +130,12 @@
 	h5 {
 		font-size: 17px;
 	}
+	.header__phones {
+		justify-content: center;
+	}
+	.header__phone {
+		margin: 0 15px;
+	}
 	.nav > ul li {
 		padding: 10px 5px;
 		margin: 0 auto;
@@ -166,6 +175,7 @@
 	}
 	.excellence__brand {
 		margin: 0 auto;
+		max-width: 100px;
 	}
 	.project {
 		max-width: 350px;

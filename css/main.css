@@ -171,6 +171,34 @@ button:active {
 	letter-spacing: 0;
 	background: rgba(0, 0, 0, 0.80);
 	z-index: 1000;
+	padding: 10px 0;
+}
+
+.header__phones {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: flex-end;
+	padding-right: 50px;
+	padding-bottom: 5px;
+	border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+.header__phone {
+	display: block;
+	margin-left: 30px;
+	color: #fff;
+}
+
+.header__phone:hover {
+	color: #fff;
+	transform: scale(1.05, 1.1);
+}
+
+.header__phone:active {
+	color: #b1b1b1;
 }
 
 .logo {
