@@ -171,7 +171,7 @@ button:active {
 	letter-spacing: 0;
 	background: rgba(0, 0, 0, 0.80);
 	z-index: 1000;
-	padding: 10px 0;
+	padding: 10px 0 0;
 }
 
 .header__phones {
