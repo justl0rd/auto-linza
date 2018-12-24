@@ -5,6 +5,9 @@
 	.footer__phones {
 		margin-left: 10px;
 	}
+	.footer__logo {
+		margin: 0 auto;
+	}
 	.logo__img {
 		width: 100%;
 		max-width: 250px;
@@ -12,7 +15,6 @@
 	}
 	.logo {
 		max-width: 250px;
-		margin: 0 auto;
 	}
 	.excellences {
 		background: #1f2531 url(../img/home/excelences/excelences__bg-1200.jpg) no-repeat fixed center top;
@@ -20,12 +22,15 @@
 }
 /* 768 - 992 px */
 @media screen and (max-width: 992px) {
+	.header__liner {
+		width: 100%;
+	}
 	.header__phones {
 		padding-right: 0;
 	}
 	.mobile-menu {
 		display: block;
-		padding: 12px 0;
+		padding: 9px 0;
 	}
 	.nav {
 		display: none;
@@ -130,11 +135,23 @@
 	h5 {
 		font-size: 17px;
 	}
+	.header__logo {
+		height: 100%;
+		max-height: 100%;
+		max-width: 100%;
+	}
+	.header__link {
+		font-size: 23px;
+	}
 	.header__phones {
 		justify-content: center;
 	}
 	.header__phone {
-		margin: 0 15px;
+		margin: 0;
+		font-size: 12px;
+	}
+	.header__phone:last-child {
+		margin-left: 10px;
 	}
 	.nav > ul li {
 		padding: 10px 5px;
